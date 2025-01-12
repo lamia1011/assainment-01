@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    background-color:rgb(245, 245, 245); ;
 }
 .work-sans-uniquifier{
     font-family: "Work Sans", serif;
@@ -346,7 +345,7 @@ text-align: left;
     border-radius: 15px;
     background: rgb(255, 255, 255);
     padding: 25px;
-    
+
     }
     #money-box .Taka{
         color: rgba(14, 14, 14, 0.8);
@@ -357,5 +356,7 @@ text-align: left;
         letter-spacing: 0%;
         text-align: center;
         background-color: #fff;
+        justify-content: space-between;
     }
+    
 
