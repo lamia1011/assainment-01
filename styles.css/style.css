@@ -259,7 +259,7 @@ text-align: left;
             margin-bottom: 20px;
             padding: 20px;
         }
-        .news-card2 {
+        .news-card2{
             display: flex;
             gap: 20px;
             background-color: #fff;
@@ -337,7 +337,13 @@ text-align: left;
         letter-spacing: 0%;
         text-align: center;
     }
-    #money-box{
+    .box-container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 25px;
+    }
+    .box{
+      
     width: 240px;
     height: 110px;  
     box-sizing: border-box;
@@ -345,18 +351,47 @@ text-align: left;
     border-radius: 15px;
     background: rgb(255, 255, 255);
     padding: 25px;
-
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #fff;
     }
-    #money-box .Taka{
-        color: rgba(14, 14, 14, 0.8);
-        font-family: Fira Sans;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0%;
+    .box:hover{
+      background-color:  rgb(198, 228, 214)
+    }
+    .other-amount{
+        margin-bottom: 20px;
+    }
+    .other-amount input{
+        width: 1032px;
+        padding: 10px;
         text-align: center;
-        background-color: #fff;
-        justify-content: space-between;
+        color: rgba(14, 14, 14, 0.3);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        border: 2px solid rgba(14, 14, 14, 0.15);
     }
-    
+    .done{
+        color: #fff;
+        box-sizing: border-box;
+        border: 1px solid rgba(247, 242, 242, 0.1);
+        border-radius: 8px;
+        background: rgb(0, 106, 80);
+        width: 150px;
+        height: 56px;
+        font-size: 18px;
+        font-family: Fira Sans;
+        font-weight: 600;
+        line-height: 22px;
+    }  
+    .done:hover{
+        background-color:rgb(12, 139, 108) ;
+    } 
 
